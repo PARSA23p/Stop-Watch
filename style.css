@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.stopwatch{
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: kanit;
+    font-size: 30px;
+}
+
+
+.BTN{
+    position: absolute;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    top: 54%;
+
+}
+
+button{
+    font-family: kanit;
+    font-size: 20px;
+    background-color: azure;
+    border: none;
+    padding: 6px 30px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+}
+
+button:hover{
+    box-shadow: 5px 3px 12px;
+    background-color: antiquewhite;
+}
+
+
